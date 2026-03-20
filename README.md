@@ -91,6 +91,50 @@ Foram implementados testes unitários utilizando:
 
 ---
 
+## Screenshots do Aplicativo
+
+### Gestão de Lojas
+
+#### Tela inicial de lojas
+
+![Tela Inicial de lojas](docs/screenshots/Tela Inicial de lojas.png)
+
+#### Busca de lojas
+
+![Busca de lojas](docs/screenshots/Tela fazendo busca d elojas.png)
+
+#### Cadastro de nova loja
+
+![Cadastro de loja](docs/screenshots/Tela de cadastro de nova loja.png)
+
+#### Loja cadastrada com sucesso
+
+![Loja cadastrada](docs/screenshots/Tela com a nova loja cadastrada.png)
+
+#### Alteração de loja
+
+![Alterando loja](docs/screenshots/Alterando loja.png)
+
+---
+
+### Gestão de Produtos
+
+#### Lista de produtos da loja
+
+![Lista de produtos](docs/screenshots/Tela de produtos.png)
+
+#### Busca de produtos
+
+![Busca de produtos](docs/screenshots/Tela de pesquisa de produtos.png)
+
+#### Cadastro de novo produto
+
+![Cadastro de produto](docs/screenshots/Tela de cadastro de novo produto.png)
+
+#### Produto alterado
+
+![Produto alterado](docs/screenshots/Tela de depois que alterou produto.png)
+
 # 👨‍💻 Autor
 
 Agnaldo Alves Pereira

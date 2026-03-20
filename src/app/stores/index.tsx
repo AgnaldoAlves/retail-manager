@@ -22,9 +22,11 @@ export default function Lojas() {
 
   const numColumns = width > 600 ? 2 : 1
 
-  const lojasFiltradas = lojas.filter((loja) =>
-    loja.nome.toLowerCase().includes(search.toLowerCase()),
-  )
+  const lojasFiltradas = lojas.filter((loja) => {
+    if (!loja) return false
+
+    return loja.nome.toLowerCase().includes(search.toLowerCase())
+  })
 
   useFocusEffect(
     useCallback(() => {

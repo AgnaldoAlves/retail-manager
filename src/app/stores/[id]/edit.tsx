@@ -9,11 +9,11 @@ import { styles } from '../../../css/new.styles'
 
 export default function EditStore() {
   const router = useRouter()
-  const { id } = useLocalSearchParams()
+  const { id } = useLocalSearchParams<{ id: string }>()
 
   const { lojas, updateLoja } = useLojaStore()
 
-  const loja = lojas.find((l) => l.id === id)
+  const loja = lojas.find((l) => l?.id === id)
 
   const [nome, setNome] = useState(loja?.nome ?? '')
   const [cidade, setCidade] = useState(loja?.cidade ?? '')

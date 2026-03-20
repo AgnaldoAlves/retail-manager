@@ -48,13 +48,15 @@ export const lojaService = {
   /**
    * Atualiza uma loja existente
    */
+
   async updateLoja(id: string, store: Partial<Loja>): Promise<Loja> {
-    return apiFetch(`/stores/${id}`, {
+    const response = await apiFetch<{ store: Loja }>(`/stores/${id}`, {
       method: 'PUT',
       body: JSON.stringify(store),
     })
-  },
 
+    return response.store
+  },
   /**
    * Remove uma loja
    */
